@@ -17,7 +17,7 @@ class NewsPageView(TemplateView):
         # Create your own data
         with open("static/news.json", "r", encoding="utf-8") as f:
             news = json.load(f)
-        context["my_news"] = news["news"][:5]
+        context["my_news"] = news["news"][:4]
         context["datetime_obj"] = datetime.now()
         return context
 
