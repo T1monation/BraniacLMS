@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "markdownify.apps.MarkdownifyConfig",
     "mainapp",
 ]
 
@@ -79,8 +80,12 @@ WSGI_APPLICATION = "config.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "braniaclms",
+        "USER": "django",
+        "PASSWORD": "python_Django55",
+        "HOST": "",
+        "PORT": "",
     }
 }
 
