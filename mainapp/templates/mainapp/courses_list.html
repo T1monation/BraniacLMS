@@ -1,14 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
 
+
 {% block title %}
 Курсы
 {% endblock title %}
 
+
 {% block content %}
 
 <div class="row justify-content-center mt-3">
-
 
   {% for item in objects %}
   <div class="card col-sm-12 col-md-6 col-lg-4 border-0">
@@ -32,6 +33,7 @@
       <li class="page-item"><a class="page-link" href="#">Next</a></li>
     </ul>
   </nav>
+  
 </div>
 
 {% endblock content %}
