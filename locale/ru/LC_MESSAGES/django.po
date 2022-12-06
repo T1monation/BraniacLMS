@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-09 21:13+0200\n"
+"POT-Creation-Date: 2022-12-05 13:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,9 +80,6 @@ msgstr "Курс"
 msgid "Mark deleted"
 msgstr "Помечен удалённым"
 
-msgid "Courses"
-msgstr "Курсы"
-
 msgid "Enter your message"
 msgstr "Введите Ваше сообщение"
 
@@ -124,6 +121,9 @@ msgstr "Вы можете послать сообщение раз в 5 мину
 
 msgid "Django site admin"
 msgstr "Административный раздел сайта"
+
+msgid "Courses"
+msgstr "Курсы"
 
 msgid "Profile"
 msgstr "Профиль"
